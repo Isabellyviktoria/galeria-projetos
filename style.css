@@ -1,53 +1,36 @@
-
 body {
-    background-color: #fce4ec;
+    background-color: white;
     font-family: Arial, sans-serif;
     text-align: center;
-    margin: 0;
-    padding: 30px;
 }
 
 h1 {
-    color: #880e4f;
-    font-size: 36px;
-}
-
-.subtitulo {
-    color: #555555;
-    font-size: 18px;
+    color: black;
 }
 
 .galeria {
     display: flex;
     justify-content: center;
-    gap: 25px;
-    margin-top: 40px;
-    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 30px;
 }
 
 .card {
     background-color: white;
     width: 300px;
-    padding: 20px;
-    border: 1px solid #f8bbd0;
-    border-radius: 15px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    border: 1px solid black;
 }
 
 .card img {
     width: 100%;
     height: 200px;
-    object-fit: cover;
-    border-radius: 10px;
 }
 
 .card h2 {
-    color: #880e4f;
-    font-size: 24px;
+    color: black;
 }
 
 .card p {
-    color: #333333;
-    font-size: 16px;
-    line-height: 1.5;
+    color: black;
 }
